@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import Card from './app/components/Card';
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-       <Text>Dude! This works!</Text>
+        <Card />
       </View>
     );
   }

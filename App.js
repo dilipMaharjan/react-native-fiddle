@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Card />
+        <Card text={"I am passed as props"}/>
       </View>
     );
   }
